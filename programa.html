@@ -1,46 +1,43 @@
 <!DOCTYPE html>
-<html lang="pt.br">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>programa I</title>
 </head>
 <body>
    <script>
+ 
+ function pulaLinha(){
+    document.write('<br><br>')
+ }
+
+ function mostra(texto){
+    document.write(texto)
+    pulaLinha()
+ } 
+
+ let ano = 2024
+ let minhaIdade = ano - 2009
+ let idadeHeitor = ano -2009
+ let idadeEdicleia = ano - 1981
+ 
+    mostra("meu nome é Guilherme, minha idade é: " + minhaIdade)
+    mostra(' o nome do meu colega é Heitor, a idade dele é: ' + idadeHeitor)
+    mostra('o nome da diretora é Edicleia, ela tem ' + idadeEdicleia + " anos")
+
+    let media = (minhaIdade + idadeHeitor + idadeEdicleia)/3
+    mostra(' A média das idades é: ' + media)
+
+
+    ano = 2030
     
-    function pulaLinha(){
-        document.write('<br><br>')
-    }
+    mostra('No ano de '+ ano)
+    mostra("Minha idade será de: " + (ano - 2009))
+    mostra('O heitor terá: ' + (ano - 2009))
+    mostra('A diretora Edicleia terá: ' + (ano - 1981))
 
-    function mostra(texto){
-        document.write(texto)
-        pulaLinha()
-    }
-
-  let ano = 2024
-  let minhaIdade = ano - 2009
-  let idadadeJoão = ano - 2007
-  let idadeEdicleia = ano - 1981
-
-  mostra('Meu nome é guilherme, minha idade é: ' + minhaIdade)
-  mostra
-  mostra('O nome do meu colega é João, a idade dele é: ' + idadadeJoão)
-
-  let media = (15 + 17 + 43)/3
-  mostra
-  mostra(' A média das idades é: ' + media)
-
-  ano = 2030
-  
-  mostra
-  mostra('No ano de' + ano)
-  mostra
-  mostra(' Minha idade será: ' + (ano - 2009))
-  mostra
-  mostra(' O joão terá: ' + (ano - 2007))
-  mostra
-  mostra(' A diretora Edicleia terá: ' + (ano - 1981))
-  </script> 
+   </script> 
 </body>
 </html>
