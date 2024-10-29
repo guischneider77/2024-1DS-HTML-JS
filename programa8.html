@@ -20,12 +20,12 @@
 
  let materia = prompt('Qual a matéria você que sabe a média?')
 
- let trimestre = prompt('Digite a quantidade de trimestre que você fez:')
+ let trimestre = parseInt(prompt('Digite a quantidade de trimestre que você fez:'))
 
  let totalNotas = 0
 
  for(let contador = 1; contador <= trimestre; contador++){
-    let nota = prompt('Qual a sua nota ?')
+    let nota = parseInt(prompt('Qual a sua nota ?'))
     totalNotas = totalNotas + nota
  }
  let media = totalNotas/trimestre
