@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+ }
+ :root{
+    --fonte-titulo:"Itim", cursive;
+    --fonte-texto:"Roboto Condensed", sans-serif;
+    --cor1: #ccd5aeff;
+ --cor2: #e9edc9ff;
+ --cor3: #fefae0ff;
+ --cor4: #faedcdff;
+ --cor5: #d4a373ff;
+
+ }
+
+ body{
+  background-color: var(--cor2);
+  font-family: var(--fonte-texto);
+
+ }
+
+ header{
+  background-color: var(--cor1);
+  padding: 2em;
+  color: var(--cor4);
+  text-align: center;
+  font-family: var(--fonte-titulo);
+  font-size: 1.5em;
+
+ } 
